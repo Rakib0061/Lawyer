@@ -1,0 +1,376 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+
+
+/************************** XX-Large devices (larger desktops, 1399px and down) **************/
+@media (max-width: 1399px) { 
+
+    .website {
+        padding: 180px 170px;
+    }
+    .website h1 {
+        padding: 0 65px 0;
+    }
+    .icon a {
+        padding-left: 21px;
+    }
+
+}
+
+
+
+@media (max-width : 1362px) {
+    .website {
+        padding: 180px 150px;
+    }
+}
+
+
+
+/************************* X-Large devices (large desktops, 1199px and down) ******************/
+@media (max-width: 1199px) {
+
+    .container {
+        padding: 0 60px;
+    }
+    .nav-link {
+        text-align: center;
+    }
+    .website {
+        padding: 180px 200px;
+    }
+    .website h1 {
+        padding: 0 !important;
+        font-weight: 700;
+        font-size: 71px;
+    }
+    .icon a {
+        padding-left: 17px !important;
+    }
+    .swiper {
+        width: 90%;
+        height: 100%;
+    }
+    .attorneys_title p {
+        font-size: 14px;
+    }
+    .quote1 h1 {
+        font-size: 18px;
+    }
+    .form_file {
+        padding: 0 190px;
+    }
+    .spa_title h1 {
+        text-align: center;
+    }
+
+}
+
+@media (max-width : 1084px) {
+    .website {
+        padding: 180px 150px;
+    }
+}
+
+
+/************************* Large devices (desktops, 991px and down) ****************************/
+@media screen and (max-width: 991px) { 
+
+    .container {
+        padding: 0 20px !important;
+    }
+    .nav-link {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .sticky {
+        padding: 0 !important;
+    }
+    .website {
+        padding: 180px 220px;
+    }
+    .website h1 {
+        font-size: 47px !important;
+    }
+    .who_we_title h1 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .who_we_title p {
+        margin-bottom: 45px;
+    }
+    .who_we_title h1::before {
+        width: 8%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .who_we_title p {
+        text-align: center;
+    }
+    .who_we {
+        padding: 90px 0 75px;
+    }
+    .swiper {
+        width: 100%;
+    }
+    .attorneys_title {
+        text-align: center;
+    }
+    .attorneys_title h2 {
+        margin-bottom: 20px;
+    }
+    .attorneys_title {
+        margin-bottom: 45px;
+    }
+    .quote1 {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .quote1 img {
+        width: 75%;
+    }
+    .quote1::before {
+        width: 76%;
+        left: 12%;
+    }
+    .quote1 h1 {
+        left: 50%;
+        margin: 0;
+    }
+    .languages {
+        text-align: center;
+    }
+    .btn_custom {
+        margin-bottom: 50px;
+    }
+    .form_file {
+        padding: 0 114px;
+    }
+    .copywrite {
+        font-size: 12px;
+    }
+    .icon a {
+        font-size: 15px !important;
+    }
+    .spa_title p {
+        padding: 0 10px;
+    }
+
+}
+
+@media (max-width : 864px) {
+    
+    .website {
+        padding: 180px 150px;
+    }
+
+}
+
+/************************* Medium devices (tablets, 767px and down) ****************************/
+@media (max-width: 767px) { 
+
+    .nav-link::before {
+        width: 30%;
+        left: 45%;
+    }
+    .nav-link::after {
+        width: 30%;
+        left: 45%;
+    }
+    .website {
+        padding: 180px 105px;
+    }
+    .more {
+        display: none;
+    }
+    .what_we_do {
+        padding: 80px 0 95px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -60px;
+    }
+    .swiper-pagination {
+        margin-top: 20px !important;
+    }
+    .btn_custom {
+        margin-bottom: 10px  !important;
+    }
+    .quote1 h1 {
+        font-size: 16px  !important;
+    }
+    .what_we_do_title h1 {
+        margin-bottom: 60px;
+    }
+    .spa_title h1 {
+        font-size: 20px;
+    }
+    .spa_title p {
+        padding: 0 10px;
+    }
+    .btn_custom {
+        margin-bottom: 45px  !important;
+    }
+    .submit {
+        padding: 7px 40px !important;
+    }
+    .icon a {
+        font-size: 14px !important;
+    }
+    .form_file {
+        padding: 0 24px;
+    }   
+
+}
+
+@media (max-width : 664px) {
+    
+    .website {
+        padding: 180px 50px;
+    }
+
+}
+
+
+
+/************************** Small devices (landscape phones, 575px and down)********************/
+@media (max-width: 575px) { 
+
+    .website {
+        padding: 170px 110px;
+    }
+    .who_we {
+        padding: 80px 0 75px;
+    }
+    .website h1 {
+        font-size: 30px !important;
+    }
+    .who_we_title {
+        padding: 0;
+    }
+    .who_we_title p {
+        font-size: 13px;
+    }
+    .what_we_do {
+        padding: 80px 0 60px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -45px;
+    }
+    .attorneys_title {
+        padding-right: 0;
+    }
+    .attorneys {
+        padding: 80px 0;
+    }
+    .attorneys_title {
+        margin-bottom: 20px;
+    }
+    .quote1 img {
+        width: 50%;
+    }
+    .quote1::before {
+        width: 50%;
+        left: 25%;
+    }
+    .attorneys {
+        padding: 60px 0;
+    }
+    .langu {
+        padding: 90px 0;
+    }
+    .what_we_do_title h1::before {
+        width: 6%;
+    }
+    .container.d-flex.align-items-center.justify-content-between {
+        flex-direction: column;
+    }
+    .copywrite {
+        padding: 0 0 15px;
+    }
+    
+}
+
+@media (max-width : 505px) {
+    
+    .website {
+        padding: 170px 70px;
+    }
+    .text_filed span {
+        padding-right: 30px;
+    }
+    .container.d-flex.align-items-center.justify-content-between {
+        flex-direction: column;
+    }
+    .copywrite {
+        padding: 0 0 15px;
+    }
+
+}
+
+
+
+
+
+/************************** Small devices (too small phones, 575px and down)********************/
+@media (max-width : 450px) {
+    
+    a.navbar-brand {
+        font-size: 23px;
+    }
+    .website {
+        padding: 180px 0px;
+    }
+    .website h1 {
+        font-size: 29px !important;
+    }
+    .what_we_do_title h1 {
+        font-size: 25px;
+    }
+    .what_we_do_title h1::before {
+        width: 8%;
+    }
+    .attorneys_title h2 {
+        font-size: 25px;
+    }
+    .attorneys_title p {
+        font-size: 13px;
+    }
+    .quote1 img {
+        width: 80%;
+    }
+    .quote1::before {
+        width: 81%;
+        left: 10%;
+    }
+    .langu {
+        padding: 50px 0;
+    }
+    .form_file {
+        padding: 0px;
+    }
+    .text_filed span {
+        padding-right: 0px;
+    }
+    .text_filed strong {
+        left: 75px;
+    }
+    .spa_title h1 {
+        font-size: 19px;
+    }
+    .spa_title p {
+        font-size: 13px;
+    }
+    .copywrite {
+        /* font-size: 12px; */
+        text-align: center;
+    }
+    .container.d-flex.align-items-center.justify-content-between {
+        flex-direction: column;
+    }
+    .copywrite {
+        padding: 0 0 15px;
+    }
+
+}
